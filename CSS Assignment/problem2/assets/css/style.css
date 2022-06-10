@@ -1,0 +1,97 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+footer {
+    display: grid;
+    background-color: #272e31;
+    overflow: auto;
+}
+
+.footer-container {
+    grid-row: 1;
+}
+
+.subfooter {
+    grid-row: 2;
+}
+
+.info {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu, .locations {
+    text-align: left;
+    color: white;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu-header {
+    font-size: larger;
+}
+
+.menu li {
+    margin-bottom: 8px;
+    position: relative;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+    border-color: rgba(255, 255, 255, .1);
+}
+
+.footer-container {
+    display: grid;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 30px;
+    column-gap: 20px;
+}
+
+.info {
+    color: rgba(255, 255, 255, .6);
+    grid-column: 1;
+}
+
+.services {
+    grid-column: 2;
+}
+
+.resources {
+    grid-column: 3;
+}
+
+.locations {
+    grid-column: 4;
+}
+
+.subfooter {
+    display: grid;
+    background-color: black;
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.subfootright a {
+    color: white;
+    text-decoration: none;
+}
+
+.subfootleft {
+    grid-column: 1;
+}
+
+.subfootright {
+    text-align: right;
+    grid-column: 2;   
+}

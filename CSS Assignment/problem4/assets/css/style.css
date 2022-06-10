@@ -1,0 +1,139 @@
+body {
+    font-family: Arial;
+}
+
+/* header */
+header {
+    background-image: url("https://w0.peakpx.com/wallpaper/302/897/HD-wallpaper-field-sunset-sun-bench-beautiful-sunset-park-plain-tree-green-rays-garden-nature-field.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+}
+
+.header-text {
+    text-align: right;
+    position: relative;
+    top: 80%;
+    padding-right: 75px;
+    color: white;
+    font-size: 22px;
+}
+
+/* nav-bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+}
+
+li {
+    float: left;
+    border-right:1px solid white;
+}
+
+li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 20px 60px;
+    text-decoration: none;
+    font-size: 22px;;
+}
+
+li a:hover:not(.active) {
+    color: white;
+    background-color: lightgray;
+}
+
+.active {
+    color: white;
+    background-color: lightgray;
+}
+
+hr {
+    background-color: lightgray;
+}
+
+/* main body */
+.body-container {
+    display: grid;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 35px;
+    margin-bottom: 75px;
+    gap: 75px;
+}
+
+.main-content {
+    grid-column: 1 / span 10;
+    display: grid;
+    gap: 35px;
+}
+
+.side-content {
+    grid-column: 11;
+    display: grid;
+    gap: 35px;
+}
+
+.box-label {
+    color: rgb(141, 189, 68);
+}
+
+.content-box {
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+.news {
+    background-color: #f0f0f0;
+}
+
+.article-img{
+    float:left;
+    margin-right: 30px;
+}
+
+.article-title {
+    padding-bottom: 20px;
+}
+
+.article-blurb {
+    font-size: 18px;
+}
+
+.date {
+    font-weight: bold;
+}
+
+.content-link {
+    color:rgb(141, 189, 68);
+}
+
+/* footer */
+footer {
+    background-color: rgb(168, 224, 83);
+    background-size: cover;
+    height: 150px;
+    padding-left: 15%;
+}
+
+.footer-text {
+    text-align: left;
+    position: relative;
+    top: 30%;
+    padding-right: 75px;
+    color: black;
+    font-size: 18px;
+}
+
+.footer-text a {
+    color: rgb(96, 96, 96);
+}
